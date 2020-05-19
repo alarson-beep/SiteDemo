@@ -1,0 +1,176 @@
+/*
+
+Designed by Anthony Larson " rougex69@gmail.com"
+
+*/
+
+/* MISC */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html {
+  -ms-overflow-style: none;
+  margin: 0 auto;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+}
+body {
+  flex-direction: column;
+  background-color: #090A0A;
+  margin: 0;
+  font-family: Open Sans;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.greyL {
+  color: #a9a9a9;
+}
+
+.whiteL {
+  color: #FFF;
+}
+
+.center {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* END MISC */
+
+
+/* HEADER */
+
+.nav-wrapper {
+  background-color: #151617;
+  padding-right: 4em;
+  width: 100%;
+}
+
+.nav-wrapper li {
+  margin-left: .8em;
+  margin-right: .8em;
+}
+
+/* END HEADER */
+
+/* BODY */
+
+#heroBanner {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: auto;
+}
+
+.content-wrapper {
+  height: 100%;
+  width: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.sidebarL {
+  flex: 1;
+  order: 1;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+  flex: 10;
+  order: 2;
+}
+
+.mainArticle {
+  padding: 4.5em 0em 4.5em 0em;
+}
+
+.sidebarR {
+  flex: 1;
+  order: 3;
+}
+
+#gallery {
+  height: 60%;
+  align-content: center;
+  justify-content: center;
+}
+
+.carousel {
+  align-content: center;
+}
+
+.carousel .carousel-item {
+  min-height: 30em;
+  min-width: 22em;
+}
+
+/* END BODY */
+
+/* FOOTER */
+
+#page-footer {
+  background-color: #151616;
+  flex-direction: column;
+  width: 100%;
+}
+
+#footer {
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer-wrapper {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-socialIcons {
+  display: inline;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.socialIcon {
+  font-size: 2rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  color: #a9a9a9;
+  border: 2px solid #a9a9a9;
+  border-radius: 25%;
+}
+
+
+#copyright {
+  align-items: center;
+  text-align: center;
+}
+
+#page-copyright {
+  background-color: #151616;
+}
+
+.copyright-font {
+  font-size: .7em;
+}
+
+/* END FOOTER */
